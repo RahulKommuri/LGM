@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, lightgreen, rgb(246, 246, 124));
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.task-input {
+    height: 30px;
+    width: 500px;
+}
+
+.add-button {
+    height: 30px;
+    width: 50px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item label {
+    font-size: 20px;
+    flex-grow: 1;
+    color: #333;
+}
+
+.remove-button {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.tasks {
+    padding: 30px;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
